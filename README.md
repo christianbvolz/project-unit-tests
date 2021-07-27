@@ -79,7 +79,7 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 
 - Projeto individual;
 - Será um dia de projeto;
-- Data de entrega para avaliação final do projeto: `dd/mm/yyyy - 14:00h`
+- Data de entrega para avaliação final do projeto: `03/08/2021 - 14:00h`
 
 ---
 
@@ -88,9 +88,9 @@ Você implementará várias funções para atender aos requisitos propostos e/ou
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-js-unit-tests.git`.
+  * `git clone git@github.com:tryber/sd-014-a-project-js-unit-tests.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-js-unit-tests`
+    * `cd sd-014-a-project-js-unit-tests`
 
 2. Instale as dependências
   * `npm install`
