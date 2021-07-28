@@ -7,11 +7,24 @@
   Parâmetros:
     - Um array. Exemplos: [1, 2]; [1, 2, 3, 4, 5]; [1, 2, '3']; [];
   Comportamento:
-  - average([2, 2]) // Retorno: 2;
+    - average([2, 2]) // Retorno: 2;
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {};
+const average = (array) => {
+  if (array.length === 0) {
+    return undefined;
+  }
+  let result = 0;
+  for (const item of array) {
+    if (typeof item === 'string') {
+      return undefined;
+    }
+    result += item;
+  }
+  result /= array.length;
+  return Math.round(result);
+};
 
 module.exports = average;
