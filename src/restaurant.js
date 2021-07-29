@@ -102,6 +102,7 @@ const payment = (object) => {
     return soma;
   }
   soma = foodOrDrink(object);
+  soma += soma / 10;
   return soma;
 };
 

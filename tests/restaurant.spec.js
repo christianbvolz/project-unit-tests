@@ -67,6 +67,6 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
     assert.deepStrictEqual(createdMenu.consumption, ["coxinha", "agua", "sopa", "cerveja"]);
     createdMenu.order('coxinha', createdMenu);
     assert.deepStrictEqual(createdMenu.consumption, ["coxinha", "agua", "sopa", "cerveja", "coxinha"]);
-    assert.deepStrictEqual(createdMenu.pay(createdMenu), 28.5);
+    assert.deepStrictEqual(createdMenu.pay(createdMenu), 31.35);
   });
 });
